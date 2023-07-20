@@ -76,3 +76,20 @@ input, textarea {
 button {
   width: auto;
 }
+
+img {
+  width: 100%;
+  border-radius: 1rem;
+  border: 3px solid white;
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.196);
+}
+
+p {
+  word-wrap: break-word;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}

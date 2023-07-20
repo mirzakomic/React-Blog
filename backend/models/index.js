@@ -1,3 +1,3 @@
 import mongoose, { mongo } from "mongoose";
 
-mongoose.connect("mongodb://localhost:27017/MyBlog")
+mongoose.connect(process.env.MONGO_URI)

@@ -16,6 +16,13 @@ const postSchema = new mongoose.Schema({
         required: true,
         imutable: true,
 
+    },
+    image: {
+        type: {
+            url: String,
+            imageId: String,
+        },
+        required: true
     }
 });
 

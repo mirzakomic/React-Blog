@@ -11,8 +11,13 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "cloudinary": "^1.37.3",
     "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
     "express": "^4.18.2",
-    "mongoose": "^7.3.4"
+    "malta": "^4.1.37",
+    "mongoose": "^7.3.4",
+    "morgan": "^1.10.0",
+    "multer": "^1.4.5-lts.1"
   }
 }
