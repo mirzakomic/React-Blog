@@ -16,7 +16,7 @@ const PostImage = ({setRefresh}) => {
         <form onSubmit={handleSubmit}>
             <input type="text" placeholder="Title" name="title" />
             <textarea type="text" placeholder="content" name="content" />
-            <input type="text" placeholder="author" name="author" value="64b78fff2a677e17cc81e02b"/>
+            <input type="text" placeholder="author" name="author" value="64ba363882c1c2596896dd2f"/>
             <input type="file" placeholder="image" name="image"/>
             <button type="submit">Submit</button>
         </form>
